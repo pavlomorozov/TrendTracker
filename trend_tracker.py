@@ -52,8 +52,8 @@ def process_strong_up_trend():
     calculate_regression(x, y, "Strong upward trend", 'green')
 
 
-process_weak_down_trend()
-process_strong_down_trend()
 process_strong_up_trend()
+process_strong_down_trend()
+process_weak_down_trend()
 
 plt.show()
